@@ -189,21 +189,6 @@ npm run dev
 
 ---
 
-##  Variables de entorno
-
-Para conectar la aplicación con Supabase, se recomienda usar variables de entorno.
-
-Crea un archivo `.env` en la raíz del proyecto:
-
-```env
-VITE_SUPABASE_URL=TU_URL_DE_SUPABASE
-VITE_SUPABASE_ANON_KEY=TU_CLAVE_ANONIMA_DE_SUPABASE
-```
-
-En el script de Python también es recomendable evitar escribir las claves directamente en el código. Se pueden guardar como variables de entorno o en un archivo `.env`.
-
----
-
 ##  Objetivo del proyecto
 
 El objetivo de **Mi Libreta** es crear una aplicación sencilla, visual y práctica para organizar tareas del día a día.
